@@ -74,6 +74,7 @@ const button = document.getElementById("play_again")
 
 button.addEventListener("click", e =>{
     location.reload()
+    window.scrollTo(0, 0);
     console.log("play again")
 })
 
