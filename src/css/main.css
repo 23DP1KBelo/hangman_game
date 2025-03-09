@@ -1,0 +1,158 @@
+
+body{
+    scroll-behavior: smooth;
+    background-color: black;
+    color: azure;
+    font-family: "Emblema One";
+}
+header{
+    position: fixed;
+    margin: 0;
+    padding: 0;
+}
+main{
+    margin: 0;
+    padding: 0;
+}
+.emblema-one-regular {
+    font-family: "Emblema One", system-ui;
+    font-weight: 300;
+    font-style: normal;
+  }
+.heading_container{
+    margin: 0;
+    padding: 0;
+    font-size: 2.5rem;
+    text-align: center;
+}
+#game_container{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+#game{
+    margin: 0;
+    padding: 0;
+    padding-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+}
+#rules{
+    padding-top: 100px;
+    text-align: center;
+    height: 100vh;
+}
+
+#rules > h1{
+    font-size: 2.5rem;
+}
+input{
+    margin-inline: auto;
+    width: 270px;
+    height: 30px;
+    font-size: 1.5rem;
+    border-color: azure;
+    border: 2p;
+    color: azure;
+    background-color: transparent;
+    font-family: "Emblema One";
+}
+#answers {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 10px;
+}
+
+.word {
+    display: flex;
+    justify-content: center; 
+    gap: 10px;
+}
+
+span {
+    font-size: 2rem;
+    padding: 5px;
+}
+#letter_count{
+    font-size: 1.5rem;
+    padding: 5px;
+}
+.correct{
+    font-size: 1.5rem;
+}
+
+button{
+    width: 200px;
+    height: 50px;
+    margin-inline: auto;
+    margin-top: 10px;
+    font-size: 1.5rem;
+    border-radius: 20px;
+    border-color: azure;
+    background-color: black;
+    color: azure;
+    cursor: pointer;
+    font-family: "Emblema One";
+}
+
+.almost{
+    background-color: yellow;
+}
+.hidden{
+    display: none;
+}
+#menu_button {
+    margin-left: 25px;
+    width: fit-content;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    font-family: "Emblema One"
+}
+#menu_button:hover{
+    background-color: rgb(33, 33, 33);
+}
+nav{
+    top: 0;
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 25px;
+    flex-direction: column;
+    padding-left: 50px;
+}
+
+nav > a{
+    color: azure;
+    text-decoration: none;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+}
+
+#aboutUs{
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#aboutUs > h1 {
+    font-size: 2.5rem;
+}
+.para{
+    width: 950px;
+}
+
+footer{
+    text-align: center;
+    font-family: "Emblema One";
+    padding-bottom: 10px;
+}

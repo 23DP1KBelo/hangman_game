@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="src/css/main.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Emblema+One&family=Modern+Antiqua&family=Pacifico&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <button id="menu_button">Menu</button>
+        <nav id="nav_list" class="hidden">
+            <a href="#game">Game</a>
+            <a href="#rules">Rules</a>
+            <a href="#aboutUs">About us</a>
+        </nav>
+    </header>
+    <main>
+        <section id="game">
+            <div class="heading_container">
+                <h1>Hangman!</h1>
+                <img src="src/img/hangmans.jpg" width="175px" height="175px">
+                <p id="letters_used" class="correct"></p>
+            </div>
+            <div id="game_container">
+                <input id="input_word" type="text" placeholder="Write your guess...">
+                <p id="letter_count"></p>
+                <div id="answers">
+                </div>
+                <button id="play_again">Play again</button>
+            </div>
+        </section>
+        <section id="rules">
+            <h1>Rules</h1>
+            <h3>Gameplay:</h3>
+            <p>A random word is selected, and the number of letters is shown.<br>Type a guess (same length as the word) or letters and press Enter.</p>
+            <h3>Feedback:</h3>
+            <p>Correct letters in the right position are shown.<br>Incorrect letters are displayed as underscores (_).<br>Letters in the word but in the wrong position are listed separately.</p>
+            <h3>Used Letters:</h3>
+            <p>A list of all guessed letters will be shown.<br> The letters that are used and are in the word will be shown below the guess.</p>
+            <h3>Attempts:</h3>
+            <p>You have 6 guesses. After 6 wrong guesses, the game ends.</p>
+            <h3>Win Condition:</h3>
+            <p>Guess the word correctly before running out of attempts.</p>
+            <h3>Game Over:</h3>
+            <p>After 6 incorrect guesses, the correct word will be shown.</p>
+            <h3>Play Again:</h3>
+            <p>Click Play Again to start a new round.</p>
+        </section>
+        <section id="aboutUs">
+            <h1>About us</h1>
+            <div class="para">
+                <p>Welcome to our Word Guessing Game!<br> Our mission is to provide a fun, engaging, and challenging experience for all word game enthusiasts. Whether you're a casual player looking for a quick challenge or a seasoned wordsmith ready to test your skills, our game offers a great way to improve your vocabulary and have fun!<br>We believe in the power of games to bring people together, promote learning, and spark creativity. <br>Our team is passionate about making interactive experiences that are not only enjoyable but also help players grow their word knowledge.<br> We’re constantly working to improve and update the game, so stay tuned for new features and challenges! Thanks for playing, and we hope you enjoy the experience as much as we enjoy creating it.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        &copy Guess the word 2025
+    </footer>
+    <script src="src/js/main.js"></script>
+</body>
+</html>
